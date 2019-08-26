@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>slider</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="myslides  fade">
+            <div class="numbertext">1/4</div>
+            <img src="slider/tree1.jpg" alt="tree">
+            <div class="text">caption text1 </div>
+        </div>
+        <div class="myslides fade">
+            <div class="numbertext">2/4</div>
+            <img src="slider/tree2.jpg" alt="tree">
+            <div class="text">caption text2 </div>
+        </div>
+        <div class="myslides fade">
+            <div class="numbertext">3/4</div>
+            <img src="slider/tree3.jpg" alt="tree">
+            <div class="text">caption text3 </div>
+        </div>
+        <div class="myslides fade">
+            <div class="numbertext">4/4</div>
+            <img src="slider/tree4.jpg" alt="tree">
+            <div class="text">caption text4 </div>
+        </div>
+        <a class="prev" onclick="plusslides(-1)">&#10094</a>
+        <a class="next" onclick="plusslides(1)">&#10095</a>
+    </div>
+<div class="selector">
+    <span class="dot" onclick="currentslide(1)"></span>
+    <span class="dot" onclick="currentslide(2)"></span>
+    <span class="dot" onclick="currentslide(3)"></span>
+    <span class="dot" onclick="currentslide(4)"></span>
+</div>
+</body>
+
+</html>
